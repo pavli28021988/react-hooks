@@ -5,9 +5,95 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: scroll;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  text-align: center;
+  
+}
+*{
+  box-sizing: border-box;
+  background-color: rgb(201, 221, 215);
+}
+.state{
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.state div{
+  height: 100px;
+  width: 100%;
+  background-color: aqua;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.state div button{
+  padding: 10px 40px;
+  color: black;
+  font-size: 20px;
+}
+.reduserS{
+  background-color: aquamarine;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+
+}
+
+.reduserS button{
+  padding: 10px 40px;
+  color: black;
+  font-size: 20px;
+  background-color: chocolate;
+
+
+}
+h1,p{
+  background-color: rgb(233, 171, 127);
+}
+button{
+  padding: 10px 40px;
+  color: black;
+  font-size: 20px;
+  background-color: chocolate;
+
+
+}
+.effect{
+
+  background-color: rgb(144, 144, 235);
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+
+}
+
+.effect h2{
+  background-color:  rgb(144, 144, 235);
+}
+input{
+ padding: 10px 40px;
+ background: wheat;
+}
+.ref{
+  background-color: rgb(227, 210, 243);
+}
+
+
